@@ -58,6 +58,8 @@ A fully integrated multi-mode short-wave transmitter for amateur radio.
 
 TinyWhisper is a short-wave transmitter chip for the amateur radio bands that supports WSPR, FT8, SSB and CW. It combines a RISC-V based digital core with an analog IQ modulator on a single die. Besides ham radio use, the chip is meant for teaching in university courses and as a regression test case for open-source EDA tools. It was taped out in March 2026 and is currently in production. Delivery is expected in December 2026.
 
+The image above shows the final layout with the TinyWhisper logo. The RISC-V core is the large block left of the center, and the analog IQ modulator is the small macro to the right of it.
+
 - Technology: IHP SG13CMOS (130 nm)
 - Die size: 2mm x 2mm
 - Package: QFN-48
