@@ -204,6 +204,11 @@ Procfile          text
 # Magic
 *.mag             text
 
+# Chip layouts
+*.gds             binary
+*.oas             binary
+*.lyp             text
+
 # Executables
 *.exe             binary
 *.pyc             binary
