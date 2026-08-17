@@ -30,7 +30,9 @@ An open-source, frequency-scalable six-port millimeter-wave receiver.
   <p><em>Render of the ihp-sg13cmos SPARX RFIC (1mm x 1.4mm).</em></p>
 </div>
 
-SPARX ("Six-Port Automated Receiver (RX)") is a six-port receiver in IHP SG13CMOS (130 nm). The whole layout is generated in Python with custom RF devices built as a GDSFactory add-on for the IHP PDK. This way, the design can be scaled to any frequency between 60 GHz and 300 GHz without manual layout work. The image above shows the default 160 GHz variant, which is kept as the top cell `sparx160_top` inside the layout.
+SPARX ("Six-Port Automated Receiver (RX)") is a six-port receiver in IHP SG13CMOS (130 nm). The whole layout is generated in Python with custom RF devices built as a GDSFactory add-on for the IHP PDK. This way, the design can be scaled to any frequency between 60 GHz and 300 GHz without manual layout work. It was taped out in March 2026, on the same day as [TinyWhisper](#tinywhisper-ihp-mpw-tapeout).
+
+The image above shows the default 160 GHz variant, which is kept as the top cell `sparx160_top` inside the layout.
 
 - Technology: IHP SG13CMOS (130 nm)
 - Die size: 1mm x 1.4mm
